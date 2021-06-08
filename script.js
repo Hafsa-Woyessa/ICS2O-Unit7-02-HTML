@@ -8,8 +8,7 @@ function comparision () {
   userInput = parseInt(userInput)
 
   // this checks if userInput is less than 0
-  if(userInput < 0) {
-
+  if (userInput < 0) {
     document.getElementById('answer').innerHTML = 'Negative'
   } else {
     document.getElementById('answer').innerHTML = 'Positive'
